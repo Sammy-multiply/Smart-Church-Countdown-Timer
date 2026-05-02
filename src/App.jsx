@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Calendar } from 'lucide-react';
 import TimerDisplay from './components/TimerDisplay';
 import ControlPanel from './components/ControlPanel';
