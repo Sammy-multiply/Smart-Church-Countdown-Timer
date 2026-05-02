@@ -93,7 +93,7 @@ const TimerDisplay = () => {
 
       return () => clearInterval(beepInterval);
     }
-  }, [isTimeUp]);
+  }, [isTimeUp, beepTimes]);
 
   // Determine state class
   let stateClass = '';
